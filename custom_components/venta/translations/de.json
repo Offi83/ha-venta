@@ -11,7 +11,7 @@
         "step": {
             "user": {
                 "data": {
-                    "host": "Gastgeber",
+                    "host": "Host",
                     "scan_interval": "Aktualisierungsintervall (Sekunden)",
                     "api_version": "API-Version (bei Unsicherheit automatisch beibehalten)"
                 }
@@ -47,7 +47,7 @@
                 "name": "Betriebszeit"
             },
             "disc_ion_time": {
-                "name": "Scheibenionisationszeit"
+                "name": "Hygienediskzeit"
             },
             "cleaning_time": {
                 "name": "Reinigungszeit"
@@ -98,27 +98,27 @@
                 "name": "Formaldehyd"
             },
             "disc_ion_time_to_replace": {
-                "name": "Setzen Sie die Ionisationsscheibe wieder ein"
+                "name": "nächster Hygienedisktausch"
             },
             "time_to_clean": {
-                "name": "Maschine reinigen"
+                "name": "nächste Reinigung"
             },
             "time_to_service": {
-                "name": "Servicemaschine rein"
+                "name": "nächster Service"
             }
         },
         "binary_sensor": {
             "needs_refill": {
-                "name": "Braucht Nachfüllung"
+                "name": "Wasser nachfüllen"
             },
             "needs_service": {
-                "name": "Benötigt Service"
+                "name": "Service durchführen"
             },
             "needs_cleaning": {
-                "name": "Muss gereinigt werden"
+                "name": "Reinigung durchführen"
             },
             "needs_disc_replacement": {
-                "name": "Ionisationsscheibe muss ausgetauscht werden"
+                "name": "Hygienedisk wechseln"
             }
         },
         "light": {
